@@ -5,9 +5,10 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="London" />
         <footer>
           <a
+            style={{ color: "#34495e" }}
             href="https://github.com/cashmirB/final-weather-app-project"
             target="_blank"
             rel="noreferrer"
